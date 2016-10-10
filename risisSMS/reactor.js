@@ -17,39 +17,39 @@ export default {
             },
             'http://orgref.org': {
                 readOnly: 1,
-                label: ['OrgRef Dataset']
+                datasetLabel: ['OrgRef Dataset']
             },
             'http://grid.ac': {
                 readOnly: 1,
-                label: ['GRID (Global Research Identifier Database) Dataset']
+                datasetLabel: ['GRID (Global Research Identifier Database) Dataset']
             },
             'http://more2Orgs.risis.eu': {
                 readOnly: 1,
-                label: ['Organizations Dataset given by Eric (More2)']
+                datasetLabel: ['Organizations Dataset given by Eric (More2)']
             },
             'http://risis.eu/eter': {
                 readOnly: 1,
-                label: ['ETER Dataset']
+                datasetLabel: ['ETER Dataset']
             },
             'http://live.dbpedia.org': {
                 resourceFocusType: ['EducationalInstitution'],
                 readOnly: 1,
-                label: ['DBpedia Educational Institutes Dataset']
+                datasetLabel: ['DBpedia Educational Institutes Dataset']
             },
             'http://risis.eu/cordisH2020': {
                 resourceFocusType: ['http://risis.eu/cordisH2020/vocab/SignedGrantAgreement'],
                 readOnly: 1,
-                label: ['Cordis H2020 Projects Dataset']
+                datasetLabel: ['Cordis H2020 Projects Dataset']
             },
             'http://www.freme-project.eu/datasets/cordis': {
                 resourceFocusType: ['http://dbpedia.org/ontology/ResearchProject'],
                 readOnly: 1,
-                label: ['Cordis FP7 Projects Dataset']
+                datasetLabel: ['Cordis FP7 Projects Dataset']
             },
             'http://geo.risis.eu/rvo-nl': {
                 resourceFocusType: ['http://geo.risis.eu/vocabulary/rvo-nl/Project'],
                 readOnly: 1,
-                label: ['NL-RVO Projects Dataset']
+                datasetLabel: ['NL-RVO Projects Dataset']
             },
             'http://geo.risis.eu/oecd': {
                 readOnly: 1,
@@ -57,29 +57,29 @@ export default {
             },
             'http://risis.eu/wos': {
                 readOnly: 1,
-                label: ['WoS Dataset']
+                datasetLabel: ['WoS Dataset']
             },
             'http://risis.eu/genderc/applicants': {
                 resourceFocusType: ['http://risis.eu/genderc/vocab/Applicant'],
                 readOnly: 1,
-                label: ['ERC Applicants Dataset']
+                datasetLabel: ['ERC Applicants Dataset']
             },
             'http://risis.eu/genderc/grants': {
                 readOnly: 1,
-                label: ['ERC Grants Dataset']
+                datasetLabel: ['ERC Grants Dataset']
             },
             'http://risis.eu/genderc/rankings': {
                 readOnly: 1,
-                label: ['Basic University Rankings Dataset for gendERC']
+                datasetLabel: ['Basic University Rankings Dataset for gendERC']
             },
             'http://risis.eu/genderc/evaluations': {
                 readOnly: 1,
-                label: ['ERC Evaluations Dataset']
+                datasetLabel: ['ERC Evaluations Dataset']
             },
             'http://risis.eu/genderc/applications': {
                 resourceFocusType: ['http://risis.eu/genderc/vocab/Application'],
                 readOnly: 1,
-                label: ['ERC Grant Applications Dataset']
+                datasetLabel: ['ERC Grant Applications Dataset']
             }
         },
         resource: {

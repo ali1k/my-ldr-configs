@@ -17,18 +17,22 @@ export default {
             },
             'http://orgref.org': {
                 readOnly: 1,
+                resourceFocusType: ['http://risis.eu/orgref/ontology/class/Organisation'],
                 datasetLabel: ['OrgRef Dataset']
             },
             'http://grid.ac': {
                 readOnly: 1,
+                resourceFocusType: ['http://xmlns.com/foaf/0.1/Organization'],
                 datasetLabel: ['GRID (Global Research Identifier Database) Dataset']
             },
             'http://more2Orgs.risis.eu': {
                 readOnly: 1,
+                resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],
                 datasetLabel: ['Organizations Dataset given by Eric (More2)']
             },
             'http://risis.eu/eter': {
                 readOnly: 1,
+                resourceFocusType: ['http://xmlns.com/foaf/0.1/Organization'],
                 datasetLabel: ['ETER Dataset']
             },
             'http://live.dbpedia.org': {

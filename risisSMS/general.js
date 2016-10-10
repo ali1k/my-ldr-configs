@@ -2,7 +2,7 @@ export default {
     //full page title
     appFullTitle: ['RISIS SMS Platform -> Linked Data Reactor'],
     //short page title
-    appShortTitle: ['RISIS-SMS'],
+    appShortTitle: ['SMS-LDR'],
     //Default Named Graph under observation, if not set , will consider all existing graph names
     defaultGraphName: [''],
     //will prevent access if not logged in

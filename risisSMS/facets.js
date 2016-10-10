@@ -8,6 +8,14 @@ export default {
 
             }
         },
+        'http://more2Orgs.risis.eu': {
+            list: [
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://risis.eu/More2/ontology/predicate/Country', 'http://risis.eu/More2/ontology/predicate/Noofrecordedshareholders'
+            ],
+            config: {
+
+            }
+        },
         'http://risis.eu/genderc/applicants': {
             list: [
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',

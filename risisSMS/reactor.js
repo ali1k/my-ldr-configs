@@ -36,7 +36,7 @@ export default {
                 datasetLabel: ['ETER Dataset']
             },
             'http://live.dbpedia.org': {
-                resourceFocusType: ['EducationalInstitution'],
+                resourceFocusType: ['http://dbpedia.org/ontology/EducationalInstitution'],
                 readOnly: 1,
                 datasetLabel: ['DBpedia Educational Institutes Dataset']
             },

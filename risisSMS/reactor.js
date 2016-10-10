@@ -53,7 +53,7 @@ export default {
             },
             'http://geo.risis.eu/oecd': {
                 readOnly: 1,
-                label: ['OECD FUA Dataset']
+                datasetLabel: ['OECD FUA Dataset']
             },
             'http://risis.eu/wos': {
                 readOnly: 1,

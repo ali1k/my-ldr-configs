@@ -84,6 +84,10 @@ export default {
                 resourceFocusType: ['http://risis.eu/genderc/vocab/Application'],
                 readOnly: 1,
                 datasetLabel: ['ERC Grant Applications Dataset']
+            },
+            'https://ec.europa.eu/jrc/en/language-technologies/jrc-names': {
+                readOnly: 1,
+                datasetLabel: ['JRC-Names Dataset']
             }
         },
         resource: {

@@ -35,6 +35,11 @@ export default {
                 resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],
                 datasetLabel: ['Organizations Dataset given by Eric (More2)']
             },
+            'http://dx.doi.org/10.13039/fundref_registry': {
+                readOnly: 1,
+                //resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],
+                datasetLabel: ['Open Funder Dataset']
+            },
             'http://risis.eu/eter': {
                 readOnly: 1,
                 resourceFocusType: ['http://xmlns.com/foaf/0.1/Organization'],

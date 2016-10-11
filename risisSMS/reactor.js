@@ -27,7 +27,7 @@ export default {
             },
             'http://risis.eu/dataset/nano': {
                 readOnly: 1,
-                //resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],
+                resourceFocusType: ['http://risis.eu/nano/ontology/class/Organisation'],
                 datasetLabel: ['Nano Organizations Dataset']
             },
             'http://more2Orgs.risis.eu': {

@@ -25,6 +25,11 @@ export default {
                 resourceFocusType: ['http://xmlns.com/foaf/0.1/Organization'],
                 datasetLabel: ['GRID (Global Research Identifier Database) Dataset']
             },
+            'http://risis.eu/dataset/nano': {
+                readOnly: 1,
+                //resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],
+                datasetLabel: ['Nano Organizations Dataset']
+            },
             'http://more2Orgs.risis.eu': {
                 readOnly: 1,
                 resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],

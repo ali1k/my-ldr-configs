@@ -56,6 +56,7 @@ export default {
                 datasetLabel: ['NL-RVO Projects Dataset']
             },
             'http://geo.risis.eu/oecd': {
+                resourceFocusType: ['http://geo.risis.eu/vocabulary/oecd/Municipality'],
                 readOnly: 1,
                 datasetLabel: ['OECD FUA Dataset']
             },
@@ -69,14 +70,12 @@ export default {
                 datasetLabel: ['ERC Applicants Dataset']
             },
             'http://risis.eu/genderc/grants': {
+                resourceFocusType: ['http://risis.eu/genderc/vocab/Grant'],
                 readOnly: 1,
                 datasetLabel: ['ERC Grants Dataset']
             },
-            'http://risis.eu/genderc/rankings': {
-                readOnly: 1,
-                datasetLabel: ['Basic University Rankings Dataset for gendERC']
-            },
             'http://risis.eu/genderc/evaluations': {
+                resourceFocusType: ['http://risis.eu/genderc/vocab/Evaluation'],
                 readOnly: 1,
                 datasetLabel: ['ERC Evaluations Dataset']
             },
@@ -84,6 +83,10 @@ export default {
                 resourceFocusType: ['http://risis.eu/genderc/vocab/Application'],
                 readOnly: 1,
                 datasetLabel: ['ERC Grant Applications Dataset']
+            },
+            'http://risis.eu/genderc/rankings': {
+                readOnly: 1,
+                datasetLabel: ['Basic University Rankings Dataset for gendERC']
             },
             'https://ec.europa.eu/jrc/en/language-technologies/jrc-names': {
                 readOnly: 1,

@@ -10,10 +10,12 @@ export default {
         },
         'http://more2Orgs.risis.eu': {
             list: [
-                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://risis.eu/More2/ontology/predicate/Country', 'http://risis.eu/More2/ontology/predicate/Noofrecordedshareholders'
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://risis.eu/More2/ontology/predicate/Noofrecordedshareholders', 'http://risis.eu/More2/ontology/predicate/Country', 'http://risis.eu/More2/ontology/predicate/City'
             ],
             config: {
-
+                'http://risis.eu/More2/ontology/predicate/Noofrecordedshareholders': {
+                    label: ['No. of Recorded Shareholders']
+                }
             }
         },
         'http://risis.eu/genderc/applicants': {
@@ -30,7 +32,11 @@ export default {
             ],
             config: {
                 'http://risis.eu/genderc/vocab/countryOfResidence': {
-                    objectIViewer: ['TwoLetterCountryView']
+                    objectIViewer: ['TwoLetterCountryView'],
+                    label: ['Country of Residence']
+                },
+                'http://risis.eu/genderc/vocab/isMedicalDoctor': {
+                    label: ['Is Medical Dr?']
                 }
             }
         },
@@ -64,7 +70,12 @@ export default {
 
             ],
             config: {
-
+                'http://risis.eu/genderc/vocab/percentageGroup': {
+                    label: ['Percentage Group']
+                },
+                'http://risis.eu/genderc/vocab/numberOfReviewers': {
+                    label: ['No. of Reviewers']
+                }
             }
         },
         'http://risis.eu/genderc/applications': {
@@ -84,13 +95,17 @@ export default {
                 'http://risis.eu/wos/vocab/LA'
             ],
             config: {
+                'http://risis.eu/wos/vocab/PY': { label: 'Publication year' },
+                'http://risis.eu/wos/vocab/WC': { label: 'WoS Category' },
+                'http://risis.eu/wos/vocab/SC': { label: 'Subject Category' },
+                'http://risis.eu/wos/vocab/LA': { label: 'Language' }
             }
         },
         'http://risis.eu/eter': {
             list: [
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                'http://risis.eu/eter/vocab/institutionCategoryStandardized',
                 'http://risis.eu/eter/vocab/institutionCategory',
+                'http://risis.eu/eter/vocab/institutionCategoryStandardized',
                 'http://www.geonames.org/ontology#countryCode',
                 'http://risis.eu/eter/vocab/fundationYear',
                 'http://risis.eu/eter/vocab/hasUniversityHospital',
@@ -100,10 +115,31 @@ export default {
                 'http://www.geonames.org/ontology#countryCode': {
                     label: ['Country'],
                     objectIViewer: ['TwoLetterCountryView']
+                },
+                'http://risis.eu/eter/vocab/institutionCategoryStandardized': {
+                    label: ['Inst. Category Standardized']
+                },
+                'http://risis.eu/eter/vocab/institutionCategoryStandardized': {
+                    label: ['Inst. Category']
+                },
+                'http://risis.eu/eter/vocab/fundationYear': {
+                    label: ['Fundation Year']
+                },
+                'http://risis.eu/eter/vocab/hasUniversityHospital': {
+                    label: ['Has Univ. Hospital?']
+                },
+                'http://risis.eu/eter/vocab/isMultiSite': {
+                    label: ['Is Multi Site?']
                 }
             }
 
         },
+        'http://live.dbpedia.org': {
+            list: ['http://www.w3.org/1999/02/22-rdf-syntax-ns#type','http://dbpedia.org/property/country', 'http://dbpedia.org/property/established', 'http://dbpedia.org/property/city'],
+            config: {
+
+            }
+        }
         'http://risis.eu/cordisH2020': {
             list: [
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
@@ -139,13 +175,20 @@ export default {
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
                 'http://www.freme-project.eu/datasets/cordis/programme',
                 'http://www.freme-project.eu/datasets/cordis/projectFundingScheme',
-                'http://www.freme-project.eu/datasets/cordis/projectFundingScheme',
                 'http://www.freme-project.eu/datasets/cordis/projectTopics',
                 'http://www.freme-project.eu/datasets/cordis/status',
                 'http://www.freme-project.eu/datasets/cordis/activityType'
             ],
             config: {
-
+                'http://www.freme-project.eu/datasets/cordis/projectFundingScheme': {
+                    label: ['Funding Scheme']
+                },
+                'http://www.freme-project.eu/datasets/cordis/projectTopics': {
+                    label: ['Topics']
+                },
+                'http://www.freme-project.eu/datasets/cordis/activityType': {
+                    label: ['Activity Type']
+                }
             }
         },
         'http://grid.ac': {

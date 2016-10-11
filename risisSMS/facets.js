@@ -135,9 +135,11 @@ export default {
 
         },
         'http://risis.eu/dataset/nano': {
-            list: ['http://www.w3.org/1999/02/22-rdf-syntax-ns#type'],
+            list: ['http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://risis.eu/nano/ontology/predicate/ctry_harm'],
             config: {
-
+                'http://risis.eu/nano/ontology/predicate/ctry_harm': {
+                    label: ['Country']
+                }
             }
         },
         'http://live.dbpedia.org': {

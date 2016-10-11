@@ -143,7 +143,7 @@ export default {
             }
         },
         'http://dx.doi.org/10.13039/fundref_registry': {
-            list: ['http://www.w3.org/1999/02/22-rdf-syntax-ns#type','http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/country', 'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodyType', 'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodySubType']
+            list: ['http://www.w3.org/1999/02/22-rdf-syntax-ns#type','http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/country', 'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodyType', 'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodySubType'],
             config: {
                 'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodyType': {
                     label: ['Funding Body Type']

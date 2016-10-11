@@ -142,6 +142,17 @@ export default {
                 }
             }
         },
+        ''http://dx.doi.org/10.13039/fundref_registry': {': {
+            list: ['http://www.w3.org/1999/02/22-rdf-syntax-ns#type','http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/country', 'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodyType', 'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodySubType']
+            config: {
+                'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodyType': {
+                    label: ['Funding Body Type']
+                },
+                'http://data.crossref.org/fundingdata/xml/schema/grant/grant-1.2/fundingBodySubType': {
+                    label: ['Funding Body Sub-Type']
+                }
+            }
+        },
         'http://live.dbpedia.org': {
             list: ['http://www.w3.org/1999/02/22-rdf-syntax-ns#type','http://dbpedia.org/property/country', 'http://dbpedia.org/property/established', 'http://dbpedia.org/property/city'],
             config: {

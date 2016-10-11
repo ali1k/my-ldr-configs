@@ -37,7 +37,7 @@ export default {
             },
             'http://dx.doi.org/10.13039/fundref_registry': {
                 readOnly: 1,
-                //resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],
+                resourceFocusType: ['http://www.w3.org/2004/02/skos/core#Concept'],
                 datasetLabel: ['Open Funder Dataset']
             },
             'http://risis.eu/eter': {

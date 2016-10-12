@@ -65,6 +65,11 @@ export default {
                 readOnly: 1,
                 datasetLabel: ['NL-RVO Projects Dataset']
             },
+            'http://risis.eu/dataset/nano/docs': {
+                readOnly: 1,
+                resourceFocusType: ['http://risis.eu/nano/ontology/class/Document'],
+                datasetLabel: ['Nano Applications Dataset']
+            },
             'http://geo.risis.eu/oecd': {
                 resourceFocusType: ['http://geo.risis.eu/vocabulary/oecd/Municipality'],
                 readOnly: 1,

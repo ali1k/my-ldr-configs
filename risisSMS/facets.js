@@ -234,6 +234,14 @@ export default {
 
             }
         },
+        'http://risis.eu/dataset/nano/docs': {
+            list: [
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://risis.eu/nano/ontology/predicate/appln_kind', 'http://risis.eu/nano/ontology/predicate/artificial', 'http://risis.eu/nano/ontology/predicate/appln_first_priority_year', 'http://risis.eu/nano/ontology/predicate/appln_filing_year', 'http://risis.eu/nano/ontology/predicate/appln_auth'
+            ],
+            config: {
+
+            }
+        },
         'http://geo.risis.eu/cbs-nl': {
             list: [
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'

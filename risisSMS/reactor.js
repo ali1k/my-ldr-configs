@@ -70,6 +70,11 @@ export default {
                 readOnly: 1,
                 datasetLabel: ['OECD FUA Dataset']
             },
+            'http://geo.risis.eu/cbs-nl': {
+                resourceFocusType: ['http://geo.risis.eu/vocabulary/cbs-nl/AdministrativeArea'],
+                readOnly: 1,
+                datasetLabel: ['NL-CBS Statistics Dataset']
+            },
             'http://risis.eu/wos': {
                 readOnly: 1,
                 datasetLabel: ['WoS Dataset']

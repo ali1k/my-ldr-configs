@@ -28,12 +28,12 @@ export default {
             'http://risis.eu/dataset/nano': {
                 readOnly: 1,
                 resourceFocusType: ['http://risis.eu/nano/ontology/class/Organisation'],
-                datasetLabel: ['Nano Organizations Dataset']
+                datasetLabel: ['[RISIS] Nano Organizations Dataset']
             },
             'http://more2Orgs.risis.eu': {
                 readOnly: 1,
                 resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],
-                datasetLabel: ['Organizations Dataset given by Eric (More2)']
+                datasetLabel: ['[RISIS] Amadeus Sample Organizations Dataset']
             },
             'http://dx.doi.org/10.13039/fundref_registry': {
                 readOnly: 1,
@@ -43,7 +43,7 @@ export default {
             'http://risis.eu/eter': {
                 readOnly: 1,
                 resourceFocusType: ['http://xmlns.com/foaf/0.1/Organization'],
-                datasetLabel: ['ETER Dataset']
+                datasetLabel: ['[RISIS] ETER Dataset']
             },
             'http://live.dbpedia.org': {
                 resourceFocusType: ['http://dbpedia.org/ontology/EducationalInstitution'],

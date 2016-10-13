@@ -218,6 +218,14 @@ export default {
 
             }
         },
+        'http://www.leidenranking.com': {
+            list: [
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://risis.eu/leidenRanking/ontology/predicate/Country', 'http://risis.eu/leidenRanking/ontology/predicate/Field', 'http://risis.eu/leidenRanking/ontology/predicate/Period', 'http://risis.eu/leidenRanking/ontology/predicate/Frac_counting'
+            ],
+            config: {
+
+            }
+        },
         'https://ec.europa.eu/jrc/en/language-technologies/jrc-names': {
             list: [
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'

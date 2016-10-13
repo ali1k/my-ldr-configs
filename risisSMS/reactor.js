@@ -52,6 +52,12 @@ export default {
                 datasetLabel: ['[RISIS] ETER Dataset'],
                 resourceLabelProperty: ['http://www.w3.org/2000/01/rdf-schema#label']
             },
+            'http://www.leidenranking.com': {
+                readOnly: 1,
+                resourceFocusType: ['http://risis.eu/leidenRanking/ontology/class/Organisation'],
+                datasetLabel: ['CWTS Leiden Ranking Dataset'],
+                resourceLabelProperty: ['http://risis.eu/leidenRanking/ontology/predicate/University']
+            },
             'http://live.dbpedia.org': {
                 resourceFocusType: ['http://dbpedia.org/ontology/EducationalInstitution'],
                 readOnly: 1,

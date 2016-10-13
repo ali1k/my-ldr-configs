@@ -264,7 +264,7 @@ export default {
         },
         'http://orgref.org': {
             list: [
-            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/iso6392Code'
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://risis.eu/orgref/ontology/predicate/Country'
             ],
             config: {
             }

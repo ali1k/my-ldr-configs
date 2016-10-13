@@ -18,32 +18,39 @@ export default {
             'http://orgref.org': {
                 readOnly: 1,
                 resourceFocusType: ['http://risis.eu/orgref/ontology/class/Organisation'],
-                datasetLabel: ['OrgRef Dataset']
+                datasetLabel: ['OrgRef Dataset'],
+                //specifies what property should be used as display label of the resource
+                resourceLabelProperty : ['http://risis.eu/orgref/ontology/predicate/Name']
             },
             'http://grid.ac': {
                 readOnly: 1,
                 resourceFocusType: ['http://xmlns.com/foaf/0.1/Organization'],
-                datasetLabel: ['GRID (Global Research Identifier Database) Dataset']
+                datasetLabel: ['GRID (Global Research Identifier Database) Dataset'],
+                resourceLabelProperty: ['http://www.w3.org/2000/01/rdf-schema#label']
             },
             'http://risis.eu/dataset/nano': {
                 readOnly: 1,
                 resourceFocusType: ['http://risis.eu/nano/ontology/class/Organisation'],
-                datasetLabel: ['[RISIS] Nano Organizations Dataset']
+                datasetLabel: ['[RISIS] Nano Organizations Dataset'],
+                resourceLabelProperty : ['http://risis.eu/nano/ontology/predicate/org_name_std']
             },
             'http://more2Orgs.risis.eu': {
                 readOnly: 1,
                 resourceFocusType: ['http://risis.eu/More2/ontology/class/Organisation'],
-                datasetLabel: ['[RISIS] Amadeus Sample Organizations Dataset']
+                datasetLabel: ['[RISIS] Amadeus Sample Organizations Dataset'],
+                resourceLabelProperty: ['http://risis.eu/More2/ontology/predicate/Companyname']
             },
             'http://dx.doi.org/10.13039/fundref_registry': {
                 readOnly: 1,
                 resourceFocusType: ['http://www.w3.org/2004/02/skos/core#Concept'],
-                datasetLabel: ['Open Funder Dataset']
+                datasetLabel: ['Open Funder Dataset'],
+                resourceLabelProperty: ['http://www.w3.org/2000/01/rdf-schema#label']
             },
             'http://risis.eu/eter': {
                 readOnly: 1,
                 resourceFocusType: ['http://xmlns.com/foaf/0.1/Organization'],
-                datasetLabel: ['[RISIS] ETER Dataset']
+                datasetLabel: ['[RISIS] ETER Dataset'],
+                resourceLabelProperty: ['http://www.w3.org/2000/01/rdf-schema#label']
             },
             'http://live.dbpedia.org': {
                 resourceFocusType: ['http://dbpedia.org/ontology/EducationalInstitution'],
@@ -53,17 +60,20 @@ export default {
             'http://risis.eu/cordisH2020': {
                 resourceFocusType: ['http://risis.eu/cordisH2020/vocab/SignedGrantAgreement'],
                 readOnly: 1,
-                datasetLabel: ['Cordis H2020 Projects Dataset']
+                datasetLabel: ['Cordis H2020 Projects Dataset'],
+                resourceLabelProperty: ['http://purl.org/dc/terms/title']
             },
             'http://www.freme-project.eu/datasets/cordis': {
                 resourceFocusType: ['http://dbpedia.org/ontology/ResearchProject'],
                 readOnly: 1,
-                datasetLabel: ['Cordis FP7 Projects Dataset']
+                datasetLabel: ['Cordis FP7 Projects Dataset'],
+                resourceLabelProperty: ['http://purl.org/dc/terms/title']
             },
             'http://geo.risis.eu/rvo-nl': {
                 resourceFocusType: ['http://geo.risis.eu/vocabulary/rvo-nl/Project'],
                 readOnly: 1,
-                datasetLabel: ['NL-RVO Projects Dataset']
+                datasetLabel: ['NL-RVO Projects Dataset'],
+                resourceLabelProperty: ['http://purl.org/dc/terms/title']
             },
             /*
             'http://risis.eu/dataset/nano/docs': {
@@ -75,12 +85,14 @@ export default {
             'http://geo.risis.eu/oecd': {
                 resourceFocusType: ['http://geo.risis.eu/vocabulary/oecd/Municipality'],
                 readOnly: 1,
-                datasetLabel: ['OECD FUA Dataset']
+                datasetLabel: ['OECD FUA Dataset'],
+                resourceLabelProperty: ['http://purl.org/dc/terms/title']
             },
             'http://geo.risis.eu/cbs-nl': {
                 resourceFocusType: ['http://geo.risis.eu/vocabulary/cbs-nl/AdministrativeArea'],
                 readOnly: 1,
-                datasetLabel: ['NL-CBS Statistics Dataset']
+                datasetLabel: ['NL-CBS Statistics Dataset'],
+                resourceLabelProperty: ['http://purl.org/dc/terms/title']
             },
             'http://risis.eu/wos': {
                 readOnly: 1,

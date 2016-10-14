@@ -55,7 +55,7 @@ export default {
             'http://www.leidenranking.com': {
                 readOnly: 1,
                 resourceFocusType: ['http://risis.eu/leidenRanking/ontology/class/Organisation'],
-                datasetLabel: ['CWTS Leiden Ranking Dataset'],
+                datasetLabel: ['[RISIS] CWTS Leiden Ranking Dataset'],
                 resourceLabelProperty: ['http://risis.eu/leidenRanking/ontology/predicate/University']
             },
             'http://live.dbpedia.org': {

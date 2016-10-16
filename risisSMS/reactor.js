@@ -20,7 +20,7 @@ export default {
                 resourceFocusType: ['http://risis.eu/orgref/ontology/class/Organisation'],
                 datasetLabel: ['OrgRef Dataset'],
                 //specifies what property should be used as display label of the resource
-                resourceLabelProperty : ['http://risis.eu/orgref/ontology/predicate/Name']
+                resourceLabelProperty : ['http://risis.eu/orgref/ontology/predicate/Name', 'http://risis.eu/orgref/ontology/predicate/Country']
             },
             'http://grid.ac': {
                 readOnly: 1,
@@ -73,7 +73,7 @@ export default {
                 resourceFocusType: ['http://dbpedia.org/ontology/ResearchProject'],
                 readOnly: 1,
                 datasetLabel: ['Cordis FP7 Projects Dataset'],
-                resourceLabelProperty: ['http://purl.org/dc/terms/title']
+                resourceLabelProperty: ['http://purl.org/dc/elements/1.1/title']
             },
             'http://geo.risis.eu/rvo-nl': {
                 resourceFocusType: ['http://geo.risis.eu/vocabulary/rvo-nl/Project'],

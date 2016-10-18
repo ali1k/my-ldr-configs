@@ -20,7 +20,7 @@ export default {
                 resourceFocusType: ['http://risis.eu/orgref/ontology/class/Organisation'],
                 datasetLabel: ['OrgRef Dataset'],
                 //specifies what property should be used as display label of the resource
-                resourceLabelProperty : ['http://risis.eu/orgref/ontology/predicate/Name', 'http://risis.eu/orgref/ontology/predicate/Country']
+                resourceLabelProperty : ['http://risis.eu/orgref/ontology/predicate/Name']
             },
             'http://grid.ac': {
                 readOnly: 1,
@@ -131,6 +131,10 @@ export default {
             'https://ec.europa.eu/jrc/en/language-technologies/jrc-names': {
                 readOnly: 1,
                 datasetLabel: ['JRC-Names Dataset']
+            },
+            'http://risis.eu/linkset/default': {
+                readOnly: 1,
+                datasetLabel: ['Example Linksets']
             }
         },
         resource: {

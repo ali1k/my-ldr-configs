@@ -159,6 +159,12 @@ export default {
 
             }
         },
+        'http://risis.eu/dataset/eupro': {
+            list: ['http://www.w3.org/1999/02/22-rdf-syntax-ns#type','http://dbpedia.org/property/country', 'http://dbpedia.org/property/established', 'http://dbpedia.org/property/city'],
+            config: {
+
+            }
+        },
         'http://risis.eu/cordisH2020': {
             list: [
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',

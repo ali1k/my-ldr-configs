@@ -69,6 +69,11 @@ export default {
                 datasetLabel: ['Cordis H2020 Projects Dataset'],
                 resourceLabelProperty: ['http://purl.org/dc/terms/title']
             },
+            'http://risis.eu/dataset/eupro': {
+                resourceFocusType: ['http://risis.eu/eupro/ontology/class/Projects'],
+                readOnly: 1,
+                datasetLabel: ['[RISIS] EUPRO Projects Dataset']
+            },
             'http://www.freme-project.eu/datasets/cordis': {
                 resourceFocusType: ['http://dbpedia.org/ontology/ResearchProject'],
                 readOnly: 1,

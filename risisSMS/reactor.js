@@ -70,7 +70,7 @@ export default {
                 resourceLabelProperty: ['http://purl.org/dc/terms/title']
             },
             'http://risis.eu/dataset/eupro': {
-                resourceFocusType: ['http://risis.eu/eupro/ontology/class/Projects'],
+                //resourceFocusType: ['http://risis.eu/eupro/ontology/class/Projects'],
                 readOnly: 1,
                 datasetLabel: ['[RISIS] EUPRO Projects Dataset']
             },

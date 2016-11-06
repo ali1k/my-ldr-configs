@@ -283,5 +283,15 @@ export default {
             config: {
             }
         },
+        'http://classifications.risis.eu/countries': {
+            list: [
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://risis.eu/gadm/ontology/predicate/developing',
+            'http://risis.eu/gadm/ontology/predicate/iso2',
+            'http://risis.eu/gadm/ontology/predicate/iso3'
+            ],
+            config: {
+            }
+        },
     }
 };

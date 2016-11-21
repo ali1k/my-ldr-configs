@@ -56,11 +56,11 @@ export default {
                 datasetLabel: ['Open Funder Dataset'],
                 resourceLabelProperty: ['http://www.w3.org/2000/01/rdf-schema#label']
             },
-            'http://risis.eu/eter': {
+            'http://risis.eu/dataset/Eter': {
                 readOnly: 1,
-                resourceFocusType: ['http://xmlns.com/foaf/0.1/Organization'],
+                resourceFocusType: ['http://risis.eu/Eter/ontology/class/University'],
                 datasetLabel: ['[RISIS] ETER Dataset'],
-                resourceLabelProperty: ['http://www.w3.org/2000/01/rdf-schema#label']
+                resourceLabelProperty: ['http://risis.eu/Eter/ontology/predicate/institution_Name']
             },
             'http://www.leidenranking.com': {
                 readOnly: 1,

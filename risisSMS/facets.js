@@ -134,15 +134,14 @@ export default {
                 'http://risis.eu/wos/vocab/LA': { label: 'Language' }
             }
         },
-        'http://risis.eu/eter': {
+        'http://risis.eu/dataset/Eter': {
             list: [
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                'http://risis.eu/eter/vocab/institutionCategory',
-                'http://risis.eu/eter/vocab/institutionCategoryStandardized',
-                'http://www.geonames.org/ontology#countryCode',
-                'http://risis.eu/eter/vocab/fundationYear',
-                'http://risis.eu/eter/vocab/hasUniversityHospital',
-                'http://risis.eu/eter/vocab/isMultiSite'
+                'http://risis.eu/ontology/predicate/institution_Category_English',
+                'http://risis.eu/ontology/predicate/country_Code',
+                'http://risis.eu/ontology/predicate/foundation_year',
+                'http://risis.eu/ontology/predicate/university_hospital',
+                'http://risis.eu/ontology/predicate/multisite_institution'
         ],
             config: {
                 'http://www.geonames.org/ontology#countryCode': {

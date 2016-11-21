@@ -137,11 +137,11 @@ export default {
         'http://risis.eu/dataset/Eter': {
             list: [
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                'http://risis.eu/ontology/predicate/institution_Category_English',
-                'http://risis.eu/ontology/predicate/country_Code',
-                'http://risis.eu/ontology/predicate/foundation_year',
-                'http://risis.eu/ontology/predicate/university_hospital',
-                'http://risis.eu/ontology/predicate/multisite_institution'
+                'http://risis.eu/Eter/ontology/predicate/institution_Category_English',
+                'http://risis.eu/Eter/ontology/predicate/country_Code',
+                'http://risis.eu/Eter/ontology/predicate/foundation_year',
+                'http://risis.eu/Eter/ontology/predicate/university_hospital',
+                'http://risis.eu/Eter/ontology/predicate/multisite_institution'
         ],
             config: {
                 'http://www.geonames.org/ontology#countryCode': {

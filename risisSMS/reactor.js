@@ -469,7 +469,7 @@ export default {
                     ]
                 }
             },
-            'http://risis.eu/eter': {
+            'http://risis.eu/Eter': {
                 'http://risis.eu/eter/vocab/institutionCategory':{
                     label: ['Category']
                 },

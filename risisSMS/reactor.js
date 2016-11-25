@@ -153,10 +153,6 @@ export default {
                 datasetLabel: ['Classifications: Countries Dataset'],
                 resourceFocusType: ['http://risis.eu/CountriesGeoData/ontology/class/Country'],
                 resourceLabelProperty: ['http://risis.eu/CountriesGeoData/ontology/predicate/name']
-            },
-            'http://risis.eu/linkset/default': {
-                readOnly: 1,
-                datasetLabel: ['Example Linksets']
             }
         },
         resource: {
